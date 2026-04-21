@@ -69,4 +69,4 @@ For any questions regarding this privacy policy or data handling:
 
 **Luc Wynne**
 Conlatio FZ-LLC
-luc@conlatio.com
+luc@conlatio.eu
