@@ -1,0 +1,82 @@
+# Privacy Policy — Personal Health Intelligence App
+
+**Effective date:** 23 May 2026
+**Last updated:** 23 May 2026
+
+## Overview
+
+This application ("the App") is a private, single-user personal health tool built and operated by Luc Wynne for his own use. It is not a commercial product, is not offered to the public, and has no users other than its operator. This privacy policy is published to satisfy Whoop's developer requirements for OAuth app registration.
+
+## Who operates the App
+
+The App is operated by Luc Wynne (the "Operator"). Contact: lucwynne@gmail.com.
+
+## Data the App collects
+
+The App accesses the following data via the Whoop API on the Operator's own Whoop account:
+
+- Daily recovery scores, heart rate variability, resting heart rate, blood oxygen, and skin temperature
+- Sleep stage data, sleep duration, sleep performance, and sleep efficiency
+- Daily strain, calories burned, average and maximum heart rate
+- Individual workout data including heart rate zones, strain, and calories
+
+The App also collects data the Operator provides directly to it, including:
+
+- Subjective state inputs such as mood, energy, stress, and soreness
+- Nutrition logs, hydration logs, supplement and substance logs
+- Training session data and feedback
+- Bloodwork results uploaded by the Operator
+- Voice transcripts and free-form notes
+- Workload and social context data
+
+## How the App uses data
+
+All data is used solely to provide the Operator with insights about his own health, training, and recovery. The App may use the data to:
+
+- Display the Operator's own data back to him
+- Generate training plans and recommendations for the Operator
+- Identify correlations and patterns in the Operator's own health data
+- Provide conversational query access to the Operator's own dataset
+
+## How the App stores data
+
+Data is stored in a private Supabase Postgres database (cloud-hosted, Sydney region) and processed on hardware physically controlled by the Operator. The database is not accessible to any third party.
+
+## Data sharing
+
+The App does not share data with any third party. Specifically:
+
+- The App does not sell data
+- The App does not share data with advertisers
+- The App does not share data with analytics providers
+- The App does not have any users other than the Operator, and therefore cannot share data with other users
+
+The App does send data to the following service providers strictly for the purpose of providing the App's functionality to the Operator:
+
+- **Anthropic (Claude API):** used for language model processing of the Operator's data
+- **Supabase:** used as the database and storage host
+- **Whoop:** the source of biometric data; the App does not send data back to Whoop beyond standard OAuth token refresh requests
+
+## Data retention
+
+Data is retained indefinitely while the App is in use. The Operator may delete his own data at any time.
+
+## Security
+
+Access to the App is restricted via bearer token authentication and a private network (Tailscale). The database uses row-level security and encrypted connections.
+
+## User rights
+
+As the sole user of the App is its Operator, all data is under the Operator's direct control. The Operator may at any time:
+
+- Access all data stored by the App
+- Delete any or all data
+- Revoke the App's access to Whoop by disconnecting the OAuth grant in the Whoop dashboard
+
+## Changes to this policy
+
+This policy may be updated. The "Last updated" date at the top of this document reflects the most recent change.
+
+## Contact
+
+For any questions about this policy, contact luc@conlatio.eu.
